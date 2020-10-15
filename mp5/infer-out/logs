@@ -1,0 +1,34 @@
+[141441][environment] CWD = /root/git/cs6888/infer_test/my_example/ece2230/mp5
+[141441][environment] No .inferconfig file found
+[141441][environment] Project root = /root/git/cs6888/infer_test/my_example/ece2230/mp5
+[141441][environment] INFER_ARGS =   @/tmp/args.tmp.332ff8  ++Contents of '/tmp/args.tmp.332ff8':
+[141441][environment]                                         run
+[141441][environment]                                       
+[141441][environment] command line arguments:   infer run -- makeActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[141441][environment] Infer log identifier is 
+Infer version v0.17.0
+[141441][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[141441][environment] 
+[141441][   progress] Capturing in make/cc mode...
+[141441][environment] Running command make with env:
+[141441][environment] (Extend((PATH /opt/infer-linux64-v0.17.0/lib/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/infer-linux64-v0.17.0/bin:/opt/infer-linux64-v0.17.0/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/infer-linux64-v0.17.0/bin:/opt/infer-linux64-v0.17.0/bin)))
+[141441][environment] 
+[141441][  user warn] Nothing to compile. Try running `make clean` first.
+[141441][   progress] There was nothing to analyze.
+
+[141451][      phase] ============================================================
+[141451][      phase] = New infer execution begins
+[141451][      phase] ============================================================
+[141451][environment] CWD = /root/git/cs6888/infer_test/my_example/ece2230/mp5
+[141451][environment] No .inferconfig file found
+[141451][environment] Project root = /root/git/cs6888/infer_test/my_example/ece2230/mp5
+[141451][environment] INFER_ARGS =   @/tmp/args.tmp.3b2468  ++Contents of '/tmp/args.tmp.3b2468':
+[141451][environment]                                         analyze
+[141451][environment]                                       
+[141451][environment] command line arguments:   infer analyze -- makeActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[141451][environment] Infer log identifier is 
+Infer version v0.17.0
+[141451][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[141451][environment] 
+[141451][  user warn] Nothing to compile. Have you run `infer capture`? Try cleaning the build first.
+[141451][   progress] There was nothing to analyze.
