@@ -22,7 +22,7 @@ data_t remove_helper(bst_t* T, bst_node_t* rover, bst_key_t key);
 bst_t *bst_construct (int tree_policy){
     bst_t* T = (bst_t*)calloc(1,sizeof(bst_t));
     //change flow
-    //if(T==NULL) return NULL;
+    if(T==NULL) return NULL;
 
     //initializing.
     T->root = NULL;
